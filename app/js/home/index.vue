@@ -8,12 +8,14 @@
         <product/>
         <life/>
         <home-footer/>
+        <navbar/>
     </div>
 </template>
 
 <script>
 import HomeHeader from "../public/header.vue"
 import HomeFooter from "../public/footer.vue"
+import Navbar from "../public/Navbar.vue"
 import HSlider from "./HSlider.vue"
 import novice from "./novice.vue"
 import Borrow from "./Borrow.vue"
@@ -24,6 +26,7 @@ export default {
     components: {
         HomeHeader,
         HomeFooter,
+        Navbar,
         HSlider,
         novice,
         Borrow,
