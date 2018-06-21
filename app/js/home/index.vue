@@ -2,19 +2,22 @@
     <div>
         <home-header/>
         <h-slider/>
-        <novice></novice>
+        <novice/>
+        <borrow/>
     </div>
 </template>
 
 <script>
 import HomeHeader from "../public/header.vue"
 import HSlider from "./HSlider.vue"
-import novice from "./novice"
+import novice from "./novice.vue"
+import Borrow from "./Borrow.vue"
 export default {
     components: {
         HomeHeader,
         HSlider,
         novice,
+        Borrow,
     },
 }
 </script>
