@@ -5,6 +5,7 @@
         <novice/>
         <borrow/>
         <money/>
+        <product/>
     </div>
 </template>
 
@@ -14,6 +15,7 @@ import HSlider from "./HSlider.vue"
 import novice from "./novice.vue"
 import Borrow from "./Borrow.vue"
 import Money from "./Money.vue"
+import Product from "./Product.vue"
 export default {
     components: {
         HomeHeader,
@@ -21,6 +23,7 @@ export default {
         novice,
         Borrow,
         Money,
+        Product,
     },
 }
 </script>
